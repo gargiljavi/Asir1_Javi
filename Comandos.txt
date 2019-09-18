@@ -1,0 +1,10 @@
+
+----------CLONAR					git clone 
+
+----------Todos los ficheros de la carpeta los sube	git add . 
+
+----------Ver los movimientos  				git diff
+
+----------Punto de guardado    				git commit -a -m ""
+
+----------Subir						git pull
