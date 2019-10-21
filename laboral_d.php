@@ -2,6 +2,7 @@
 
 
 
+
 <?php
 $Festivos= [
 	'2019-10-12',
@@ -92,12 +93,12 @@ for($i=1;$i<293;$i++){
 	}
 }
 echo '<pre>';
-echo 'La asignagura LMS tiene '.count($r['LMS']).' Dias lectivos<br/>';
-echo 'La asignagura HW tiene '.count($r['HW']).' Dias lectivos<br/>';
+echo 'La asignagura LMS tiene '.(count($r['LMS'])*2).' Horas lectivos<br/>';
+echo 'La asignagura HW tiene '.count($r['HW']).' Horas lectivos<br/>';
 echo '</pre>';
 function tabla($r,$contenido){
-		echo '<table>';
-		foreach($r[$contenido] as $f){
+	echo '<tr style="background-color:aquamarine;"><td>'.$contenido.'</td></tr>';
+	foreach($r[$contenido] as $f){
 		echo '<tr>';
 		// fecha
 		echo '<td>';
@@ -119,13 +120,8 @@ function tabla($r,$contenido){
 		}
 		echo '</tr>';
 	}
-	echo '</table>';
 }
-echo 'LMS</br>';
-tabla($r,'LMS');
-echo "<br>";
-echo 'HW</br>';
-tabla($r,'HW');
+
 ?>
 
 </table>
