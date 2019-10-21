@@ -61,7 +61,7 @@ $Festivos= [
 $r['dias']=[];
 $r['LMS']=[];
 $r['HW']=[];
-for($i=1;$i<293;$i++){
+for($i=1;$i<289;$i++){
 	$d=date('Y-m-d',($i-1)*24*60*60+strtotime('2019-09-11'));
 	//echo $d;
 	//echo date('D',strtotime($d));
