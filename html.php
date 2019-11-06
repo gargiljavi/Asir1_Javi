@@ -1,3 +1,29 @@
+<?php
+
+if(isset($_POST['submit']))
+
+{$name = $_POST['name'];
+
+ 
+
+echo "Registo completado : <b> $name </b><br><br>";
+
+  $archivo="suscriptores.txt";
+
+  $proceso=fopen($archivo,"a") or die("basura");
+
+  $datos="Registro suscriptor:".$name."\r\n";
+
+  fwrite($proceso,$datos);
+
+  fclose($proceso);
+
+ 
+}
+
+
+?>
+
 <html>
 <head>
 <title>Subaru Impreza WRX</title>
@@ -19,7 +45,24 @@
 			<tr><td><font color="white"><center>150 cv</center></font></td></tr>
 	</table>
 </font>
+<br>
+<font color="white" size="4">
+<p>Quieres comprar <br> un subaru?<br>Te LLamamos!!!</p>
 
+
+<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+
+ <br> Numero de Telefono: 
+
+<input type="text" name="name"><br><br>
+
+ 
+
+<input type="submit" name="submit" value="Enviar"><br>
+
+ 
+</font>
+</form>
 
 
 
