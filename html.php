@@ -47,7 +47,7 @@ echo "Registo completado : <b> $name </b><br><br>";
 </font>
 <br>
 <font color="white" size="4">
-<p>Quieres comprar <br> un subaru?<br>Te LLamamos!!!</p>
+<p>¿Quieres comprar <br> un subaru?<br>Te llamamos!!!</p>
 
 
 <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
@@ -78,8 +78,19 @@ echo "Registo completado : <b> $name </b><br><br>";
 	<img src="s1.png"  width="150"  height="150" >
 
 	<font color="white">
-	<h2><i>El coche definitivo preparado para todo.</i></h2><br><img src="Su.png"  width="500"  height="350" >
+	<p><b><i>El coche definitivo preparado para todo.</i></b></h2><br><img src="Su.png"  width="500"  height="350" >
 	<h2>Traccion a las 4 ruedas, buen peso, motor con 345 CV, veloz,<br> bonito, lo mejor del mercado a un buen precio. 40.000$<h2>
+	<h1>TIPOS DE SUBARU</h1>
+	<h2>---Primera generación</h2>
+	<h3>(1992-2000)</h3>
+	<h2>---Segunda generación</h2>
+	<h3>(2000-2007)</h3>
+	<h2>---Tercera generación</h2>
+	<h3>(2007-2012)</h3>
+	<h2>---Cuarta generación</h2>
+	<h3>(2012- 2017)</h3>
+	<h2>---Quinta generación</h2>
+	<h3>(2018- Actualidad)</h3>
 	</center>
 	</td></tr>
 	
