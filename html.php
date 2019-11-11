@@ -80,7 +80,7 @@ echo "Registo completado : <b> $name </b><br><br>";
 	<font color="white">
 	<p><b><i>El coche definitivo preparado para todo.</i></b></h2><br><img src="Su.png"  width="500"  height="350" >
 	<h2>Traccion a las 4 ruedas, buen peso, motor con 345 CV, veloz,<br> bonito, lo mejor del mercado a un buen precio. 40.000$<h2>
-	<h1>TIPOS DE SUBARU</h1>
+	<h1><u>TIPOS DE SUBARU</u></h1>
 	<h2>---Primera generación</h2>
 	<h3>(1992-2000)</h3>
 	<h2>---Segunda generación</h2>
