@@ -40,6 +40,8 @@ function triangulos($l){
 }
 
 $r=triangulos([1,1,sqrt(2)]);
+
 	echo '<pre>';
 	print_r($r);
 	echo '</pre>';
+	echo"Triangulo Isosceles y Triangulo Acutangulo";

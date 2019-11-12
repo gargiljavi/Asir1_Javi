@@ -70,8 +70,8 @@ function mes($n){
 	$r=$r.'Estacion del mes:'.' '.$a[$n-1]['estacion'].'<br>';
 	return $r;
 }
-echo mes(1).'<br>';
-echo mes(5).'<br>';
-echo mes(8).'<br>';
-echo mes(10).'<br>';
+echo mes(1)."31 de Enero es Invierno".'<br>';
+echo mes(5).'Mayo'.'<br>';
+echo mes(8).'Agosto'.'<br>';
+echo mes(10).'Octubre'.'<br>';
 ?>
