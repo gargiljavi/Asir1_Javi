@@ -94,10 +94,6 @@ echo "Registo completado : <b> $name </b><br><br>";
 	</center>
 	</td></tr>
 	
-
-
-
-
 </table>
 </center>
 

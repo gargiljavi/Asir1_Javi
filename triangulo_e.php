@@ -45,3 +45,23 @@ $r=triangulos([1,1,sqrt(2)]);
 	print_r($r);
 	echo '</pre>';
 	echo"Triangulo Isosceles y Triangulo Acutangulo";
+	
+	
+	
+	
+	
+	function prueba($t){
+$r=triangulos($t);
+echo '<pre>';
+print_r($t);
+print_r($r);
+echo '</pre>';
+}
+
+echo '<h1>rectángulo-isósceles ¿=? </h1>';prueba([1,1,sqrt(2)]);
+echo '<h1>acutángulo-equilátero ¿=?  </h1>';prueba([1,1,1]);
+echo '<h1>acutángulo-isósceles ¿=?  </h1>';prueba([2,2,2.5]);
+echo '<h1>obtusángulo-isósceles ¿=?  </h1>';prueba([2,2,3]);
+echo '<h1>acutángulo-isósceles ¿=?  </h1>';prueba([3,2,2]);
+echo '<h1>acutángulo-isósceles ¿=?  </h1>';prueba([2,3,2]);
+echo '<h1>obtusángulo-isósceles ¿=? </h1> ';prueba([1,1,10]);
