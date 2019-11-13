@@ -81,15 +81,19 @@ echo "Registo completado : <b> $name </b><br><br>";
 	<p><b><i>El coche definitivo preparado para todo.</i></b></h2><br><img src="Su.png"  width="500"  height="350" >
 	<h2>Traccion a las 4 ruedas, buen peso, motor con 345 CV, veloz,<br> bonito, lo mejor del mercado a un buen precio. 40.000$<h2>
 	<h1><u>TIPOS DE SUBARU</u></h1>
-	<h2>---Primera generación</h2>
-	<h3>(1992-2000)</h3>
-	<h2>---Segunda generación</h2>
-	<h3>(2000-2007)</h3>
-	<h2>---Tercera generación</h2>
-	<h3>(2007-2012)</h3>
-	<h2>---Cuarta generación</h2>
-	<h3>(2012- 2017)</h3>
-	<h2>---Quinta generación</h2>
+	<h2>Primera generación</h2>
+	<h3>1992-1998</h3>
+	<h3>1998-2000
+	<h2>Segunda generación</h2>
+	<h3>2000-2004)</h3>
+	<h3>2004-2007</h3>
+	<h2>Tercera generación</h2>
+	<h3>2007-2010</h3>
+	<h3>2010-2012</h3>
+	<h2>Cuarta generación</h2>
+	<h3>(2012- 2015)</h3>
+	<h3>(2015- 2017)</h3>
+	<h2>Quinta generación</h2>
 	<h3>(2018- Actualidad)</h3>
 	</center>
 	</td></tr>

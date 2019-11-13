@@ -18,7 +18,11 @@ function Angulo ($a,$b,$c) {
 }
 
 function triangulos($l){
-
+	
+	rsort ($l);
+	if ($l[0] >= ($l[1]+$l[2])) $r="ERROR";
+	
+	else{
 
 	list($a,$b,$c)=$l;
 
@@ -37,6 +41,7 @@ function triangulos($l){
 
 	
 	return $r;
+	}
 }
 
 #$r=triangulos([1,1,sqrt(2)]);
@@ -65,3 +70,4 @@ echo '<h1>Isósceles-Obtusángulo</h1>';prueba([2,2,3]);
 echo '<h1>Esacaleno-Acutángulo</h1>';prueba([3,6,2]);
 echo '<h1>Isósceles-Obtusangulo</h1>';prueba([2,3,2]);
 echo '<h1>Escaleno-Obtusángulo</h1> ';prueba([4,5,8]);
+echo '<h1>ERROR</h1> ';prueba([1,1,2]);
