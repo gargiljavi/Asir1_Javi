@@ -2,7 +2,7 @@
 
 function longitud ($d,$e,$f) {
 	$r="triangulo escaleno";
-	if ($d==$e || $e==$f)
+	if ($d==$e || $d==$f || $e==$f)
 		$r="triangulo isosceles";
 	if ($e==$f and $d==$f)
 		$r="Triangulo equilatero";
@@ -32,19 +32,19 @@ function triangulos($l){
 	$r=[
 		'angulos'=>[$A,$B,$C],
 		'tipo_lados'=>longitud($a,$b,$c),
-		'tipo_angulos'=>Angulo($a,$b,$c),
+		'tipo_angulos'=>Angulo($A,$B,$C),
 	];
 
 	
 	return $r;
 }
 
-$r=triangulos([1,1,sqrt(2)]);
+#$r=triangulos([1,1,sqrt(2)]);
 
-	echo '<pre>';
-	print_r($r);
-	echo '</pre>';
-	echo"Triangulo Isosceles y Triangulo Acutangulo";
+	#echo '<pre>';
+	#print_r($r);
+#	echo '</pre>';
+#	echo"Triangulo Isosceles y Triangulo Acutangulo";
 	
 	
 	
@@ -58,10 +58,10 @@ print_r($r);
 echo '</pre>';
 }
 
-echo '<h1>rectángulo-isósceles ¿=? </h1>';prueba([1,1,sqrt(2)]);
-echo '<h1>acutángulo-equilátero ¿=?  </h1>';prueba([1,1,1]);
-echo '<h1>acutángulo-isósceles ¿=?  </h1>';prueba([2,2,2.5]);
-echo '<h1>obtusángulo-isósceles ¿=?  </h1>';prueba([2,2,3]);
-echo '<h1>acutángulo-isósceles ¿=?  </h1>';prueba([3,2,2]);
-echo '<h1>acutángulo-isósceles ¿=?  </h1>';prueba([2,3,2]);
-echo '<h1>obtusángulo-isósceles ¿=? </h1> ';prueba([1,1,10]);
+echo '<h1>Isósceles-Rectángulo</h1>';prueba([1,1,sqrt(2)]);
+echo '<h1>Equilátero-Acutángulo</h1>';prueba([1,1,1]);
+echo '<h1>Isósceles-Acutángulo</h1>';prueba([2,2,2.5]);
+echo '<h1>Isósceles-Obtusángulo</h1>';prueba([2,2,3]);
+echo '<h1>Esacaleno-Acutángulo</h1>';prueba([3,6,2]);
+echo '<h1>Isósceles-Obtusangulo</h1>';prueba([2,3,2]);
+echo '<h1>Escaleno-Obtusángulo</h1> ';prueba([4,5,8]);
