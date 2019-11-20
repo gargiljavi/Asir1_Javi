@@ -23,10 +23,10 @@ echo "Registo completado : <b> $name </b><br><br>";
 <head>
 <title>Subaru Impreza WRX</title>
 </head>
-<body style="background-color:#262626;">
+<body style="background-color:black;">
 
 <center>
-<table style="bgcolor:red" "width:100%"  "height:100%" >
+<table "width:100%"  "height:100%" >
 <tr>
 	<td width="15%"  height="100%" valign="top">
 	<font style="color:white">
@@ -40,20 +40,25 @@ echo "Registo completado : <b> $name </b><br><br>";
 			<tr><td><font color="white"><center>150 cv</center></font></td></tr>
 	</table>
 </font>
-<br>
+<div>
 <font color="white" size="4">
-<p>¿Quieres comprar <br> un subaru?<br>Te llamamos!!!</p>
+</div>
 
+<p>
+<p style="padding:0; margin:0;">¿Quieres comprar</p>
+<p style="padding:0; margin:0;">un subaru?</p>
+<p style="padding:0; margin:0;">Te llamamos!!!</p>
+</p>
 
 <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
 
  <br> Numero de Telefono: 
 
-<input style="type:text name:name"><br><br>
+<input style="type:text name:name">
 
  
 
-<input type="submit" name="submit" value="Enviar"><br>
+<input type="submit" name="submit" value="Enviar">
  
  
 </font>
@@ -65,17 +70,17 @@ echo "Registo completado : <b> $name </b><br><br>";
 	<td width="85%"  height="100%" bgcolor="#004890" > 
 	<center>
 
-	<font style="color:white">
-	<h1><u>Subaru Impreza WRX</u></h1>
-	</font>
+	<span style="color:white;">
+	<h1  style="text-decoration:underline;">Subaru Impreza WRX</h1>
+	</span>
 	</center>
 	<center>
 	<img src="s1.png"  width="150"  height="150" >
 
 	<font style="color:white">
-	<p style="font-weight:bold"; "font-decoration:underline";>El coche definitivo preparado para todo.<p><br><img src="Su.png"  width="500"  height="350" >
-	<h2>Traccion a las 4 ruedas, buen peso, motor con 345 CV, veloz,<br> bonito, lo mejor del mercado a un buen precio. 40.000$<h2>
-	<h1><u>TIPOS DE SUBARU</u></h1>
+	<p style="font-weight:bold; text-decoration:underline;">El coche definitivo preparado para todo.</p><img src="Su.png"  width="500"  height="350" ></p>
+	<h2>Traccion a las 4 ruedas, buen peso, motor con 345 CV, veloz,</h2><h2>bonito, lo mejor del mercado a un buen precio. 40.000$</h2>
+	<h1 style="text-decoration:underline;">TIPOS DE SUBARU</h1>
 	<h2>Primera generación</h2>
 	<h3>1992-1998</h3>
 	<h3>1998-2000</h3>
