@@ -1,6 +1,5 @@
 <?php
-echo $get[cpu1];
-echo $get[cpu2];
+function cpu($micro){
 $cpus=[
 	'AMD EPYC 7742'=>'47365',
 	'AMD EPYC 7702P'=>'46067',
@@ -2973,11 +2972,13 @@ $cpus=[
 	'Intel Pentium III Mobile 750MHz'=>'103',
 	'VIA C3 Ezra'=>'100',
 ];
-
-foreach($cpus as $cpu=>$benchmark)
-	if(strstr($cpu,'Pentium 4 2.66'))
-		echo '<div>'.$benchmark.' - '.$cpu.'</div>';
+if $micro!=('')
+	foreach($cpus as $cpu=>$benchmark)
+		if(strstr($cpu,$micro))
+			echo '<div>'.$benchmark.' - '.$cpu.'</div>';
+if (isset $_GET[cpu1]
 	
+}
 ?>
 <form>
 
