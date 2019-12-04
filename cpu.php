@@ -1,5 +1,6 @@
 <?php
-
+echo $get[cpu1];
+echo $get[cpu2];
 $cpus=[
 	'AMD EPYC 7742'=>'47365',
 	'AMD EPYC 7702P'=>'46067',
@@ -2978,17 +2979,16 @@ foreach($cpus as $cpu=>$benchmark)
 		echo '<div>'.$benchmark.' - '.$cpu.'</div>';
 	
 ?>
-<form method="post" action="
-<?php echo $_SERVER['PHP_SELF']; ?>">
+<form>
 
- <br> Comparación: 
- </br>
-
-<input type="text" name="cpu1"><br><br>
-<input type="text" name="cpu2"><br><br>
+Comparación: 
  
 
-<input type="submit" name="" value="Submit Form"><br>
+<input name="cpu1"><br><br>
+<input name="cpu2"><br><br>
+ 
+
+<button>COMPARAR</button>
  
 
 </form>
