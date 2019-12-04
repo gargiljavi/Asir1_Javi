@@ -2972,17 +2972,18 @@ $cpus=[
 	'Intel Pentium III Mobile 750MHz'=>'103',
 	'VIA C3 Ezra'=>'100',
 ];
-if ($micro!='')
-	foreach($cpus as $cpu=>$benchmark)
-		if(strstr($cpu,$micro))
-			echo '<div>'.$benchmark.' - '.$cpu.'</div>';
-if (isset ($_GET['cpu1'])){
-		echo '<div>'.cpu($_GET['cpu1']).'</div>';
-}	
-if (isset ($_GET['cpu2'])){
-		echo '<div>'.cpu($_GET['cpu2']).'</div>';
 }
-}
+	if ($micro!='')
+		foreach($cpus as $cpu=>$benchmark)
+			if(strstr($cpu,$micro))
+				echo '<div>'.$benchmark.' - '.$cpu.'</div>';
+	if (isset ($_GET['cpu1'])){
+			echo '<div>'.cpu($_GET['cpu1']).'</div>';
+	}	
+	if (isset ($_GET['cpu2'])){
+			echo '<div>'.cpu($_GET['cpu2']).'</div>';
+	}
+
 ?>
 <form>
 

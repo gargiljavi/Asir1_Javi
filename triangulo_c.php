@@ -9,7 +9,7 @@ function Angulo ($a,$b,$c) {
 }
 function longitud ($d,$e,$f) {
 	$r="triangulo escaleno";
-	if ($d==$e || $e==$f)
+	if ($d==$e || $d==$f || $e==$f)
 		$r="triangulo isosceles";
 	if ($e==$f and $d==$f)
 		$r="Triangulo equilatero";
@@ -24,4 +24,6 @@ echo C(60,90,30,4,4,8).'El triangulo va a ser Triangulo Rectangulo y isosceles '
 echo C(60,90,30,4,2,8).'El triangulo va a ser Triangulo Rectangulo y escaleno '."<br>"."<br>";
 echo C(60,60,60,2,2,2).'El triangulo va a ser Triangulo  Acutangulo y equilatero'."<br>"."<br>";
 echo C(70,60,50,2,5,2).'El triangulo va a ser Triangulo  Acutangulo y escaleno'."<br>";
+echo C(60,90,30,4,8,4).'El triangulo va a ser Triangulo Rectangulo y isosceles '."<br>"."<br>";
+echo C(60,90,30,8,4,4).'El triangulo va a ser Triangulo Rectangulo y isosceles '."<br>"."<br>";
 ?>
